@@ -1,53 +1,43 @@
-"use strict";
+// types.js — задание 2: типы и приведение типов в JavaScript
 
-console.log("=== Задание 2: типы и преобразования ===\n");
+console.log('--- Задание 2: типы и приведение ---');
 
-console.log('1) "8" + 2');
-console.log("Значение:", "8" + 2);
-console.log("Тип:", typeof ("8" + 2));
-console.log();
+// 1
+console.log('1) Результат:', "8" + 2);
+console.log('   Тип:', typeof ("8" + 2));
 
-console.log('2) "8" - 2');
-console.log("Значение:", "8" - 2);
-console.log("Тип:", typeof ("8" - 2));
-console.log();
+// 2
+console.log('2) Результат:', "8" - 2);
+console.log('   Тип:', typeof ("8" - 2));
 
-console.log('3) Number("8") + 2');
-console.log("Значение:", Number("8") + 2);
-console.log("Тип:", typeof (Number("8") + 2));
-console.log();
+// 3
+console.log('3) Результат:', Number("8") + 2);
+console.log('   Тип:', typeof (Number("8") + 2));
 
-console.log('4) "12" > "3"');
-console.log("Значение:", "12" > "3");
-console.log("Тип:", typeof ("12" > "3"));
-console.log();
+// 4
+console.log('4) Результат:', "12" > "3");
+console.log('   Тип:', typeof ("12" > "3"));
 
-console.log('5) 12 === "12"');
-console.log("Значение:", 12 === "12");
-console.log("Тип:", typeof (12 === "12"));
-console.log();
+// 5
+console.log('5) Результат:', 12 === "12");
+console.log('   Тип:', typeof (12 === "12"));
 
-console.log('6) Number("")');
-console.log("Значение:", Number(""));
-console.log("Тип:", typeof Number(""));
-console.log();
+// 6
+console.log('6) Результат:', Number(""));
+console.log('   Тип:', typeof Number(""));
 
-console.log('7) Number("text")');
-console.log("Значение:", Number("text"));
-console.log("Тип:", typeof Number("text"));
-console.log();
+// 7
+console.log('7) Результат:', Number("text"));
+console.log('   Тип:', typeof Number("text"));
 
-console.log('8) Boolean("false")');
-console.log("Значение:", Boolean("false"));
-console.log("Тип:", typeof Boolean("false"));
-console.log();
+// 8
+console.log('8) Результат:', Boolean("false"));
+console.log('   Тип:', typeof Boolean("false"));
 
-console.log('9) typeof null');
-console.log("Значение:", typeof null);
-console.log("Тип результата typeof:", typeof (typeof null));
-console.log();
+// 9
+console.log('9) Результат:', typeof null);
+console.log('   Тип результата:', typeof (typeof null));
 
-console.log('10) typeof NaN');
-console.log("Значение:", typeof NaN);
-console.log("Тип результата typeof:", typeof (typeof NaN));
-console.log();
+// 10
+console.log('10) Результат:', typeof NaN);
+console.log('    Тип результата:', typeof (typeof NaN));

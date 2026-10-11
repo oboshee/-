@@ -2,36 +2,39 @@
 
 console.log('--- Задание 5: отладка ---');
 
-// ===== ЧАСТЬ 1. ИСХОДНЫЙ (ОШИБОЧНЫЙ) КОД =====
-console.log('\n[Ошибочный код]');
+// ===== Исходные данные =====
 
 const completedText = "3";
 const additionalText = "2";
+const plannedText = "8";
 
-const completedTotal = completedText + additionalText; // "32"
+// =====ИСХОДНЫЙ КОД =====
+console.log('\n[Ошибочный код]');
+
+const completedTotal = completedText + additionalText;
 const totalTasks = 8;
-const remainingTasks = totalTasks - completedTotal;    // -24
+const remainingTasks = totalTasks - completedTotal;
 
 console.log('Выполнено:', completedTotal);
-console.log('Осталось:', remainingTasks);
+console.log('Осталось:', remainingTasks);  
 
 let controlSum = 0;
 for (let taskNumber = 1; taskNumber < 4; taskNumber++) {
-    controlSum += taskNumber;
+    controlSum += taskNumber; 
 }
-console.log('Контрольная сумма:', controlSum);
+console.log('Контрольная сумма:', controlSum); 
 
-// ===== ЧАСТЬ 2. ИСПРАВЛЕННЫЙ КОД =====
+// ===== ИСПРАВЛЕННЫЙ КОД =====
 console.log('\n[Исправленный код]');
 
 const completedTotalFixed = Number(completedText) + Number(additionalText);
 const remainingTasksFixed = totalTasks - completedTotalFixed;
 
-console.log('Выполнено:', completedTotalFixed);
-console.log('Осталось:', remainingTasksFixed);
+console.log('Выполнено:', completedTotalFixed); 
+console.log('Осталось:', remainingTasksFixed);  
 
 let controlSumFixed = 0;
 for (let taskNumber = 1; taskNumber <= 4; taskNumber++) {
-    controlSumFixed += taskNumber;
+    controlSumFixed += taskNumber; 
 }
 console.log('Контрольная сумма:', controlSumFixed);
